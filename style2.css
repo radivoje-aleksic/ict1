@@ -1,0 +1,113 @@
+body {
+  margin: 0;
+  padding: 0;
+  background: url(istockphoto-1187500241-1024x1024.jpg);
+  background-position: top left;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+#osnovni {
+  width: 700px;
+  height: 100pt;
+  /* background-color: rgba(127, 255, 212, 0.3); */
+  margin: 30px auto;
+  overflow: hidden;
+}
+main {
+  float: left;
+  width: 250px;
+}
+article {
+  width: 450px;
+  /* background-color: rgba(230, 115, 39, 0.3); */
+  height: 100pc;
+  float: left;
+}
+#osnovni main ul {
+  padding: 0;
+  list-style: none;
+}
+#osnovni main ul li {
+  text-transform: uppercase;
+  padding: 10px;
+}
+
+#osnovni main ul li:hover {
+  background-color: rgb(26, 52, 54);
+  color: aliceblue;
+}
+#osnovni table {
+  border: 1px solid black;
+  width: 400px;
+  margin: 30px auto;
+  border-collapse: collapse;
+  background-color: antiquewhite;
+}
+#osnovni table td {
+  text-align: center;
+  text-transform: uppercase;
+}
+
+#osnovni p {
+  margin: 19px;
+}
+#osnovni a {
+  color: aliceblue;
+}
+nav {
+  margin: 30px 30px;
+  background-color: rgb(203, 194, 211);
+  display: flex;
+  border-radius: 19px;
+  overflow: hidden;
+  height: 60px;
+}
+nav > a {
+  flex-grow: 1;
+  flex-basis: 0;
+
+  padding-top: 22px;
+  text-decoration: none;
+  text-transform: uppercase;
+  text-align: center;
+  color: aliceblue;
+  border-right: solid 1px blanchedalmond;
+}
+.ikone {
+  flex-grow: 1;
+  flex-basis: 0;
+  display: flex;
+}
+.ikone a {
+  flex-grow: 1;
+  flex-basis: 0;
+  margin-top: 15px;
+  border-right: none;
+}
+.ikone a:first-child {
+  margin-left: 15px;
+}
+.ikone > a:hover {
+  border-right: none;
+}
+.ikone img {
+  margin-right: 15px;
+}
+nav a:hover {
+  border-right: 1px solid black;
+  color: black;
+}
+.autor {
+  width: 700px;
+  margin: 30px auto;
+}
+.autor img {
+  height: 400px;
+  float: left;
+}
+.oSebi {
+  width: 370px;
+  float: right;
+  color: aliceblue;
+}

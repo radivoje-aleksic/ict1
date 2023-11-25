@@ -1,0 +1,63 @@
+body {
+  margin: 0;
+  padding: 0;
+  background: linear-gradient(to left, rgb(89, 134, 148), rgb(235, 176, 186));
+}
+.glavni {
+  width: 700px;
+  margin: 30px auto;
+  overflow: hidden;
+}
+.glavni image {
+  float: left;
+}
+.glavni p {
+  float: left;
+  width: 300px;
+}
+nav {
+  margin: 30px 30px;
+  background-color: rgb(203, 194, 211);
+  display: flex;
+  border-radius: 19px;
+  overflow: hidden;
+  height: 60px;
+}
+nav > a {
+  flex-grow: 1;
+  flex-basis: 0;
+
+  padding-top: 22px;
+  text-decoration: none;
+  text-transform: uppercase;
+  text-align: center;
+  color: aliceblue;
+  border-right: solid 1px blanchedalmond;
+}
+.ikone {
+  flex-grow: 1;
+  flex-basis: 0;
+  display: flex;
+}
+.ikone a {
+  flex-grow: 1;
+  flex-basis: 0;
+  margin-top: 15px;
+  border-right: none;
+}
+.ikone a:first-child {
+  margin-left: 15px;
+}
+.ikone > a:hover {
+  border-right: none;
+}
+.ikone img {
+  margin-right: 15px;
+}
+nav a:hover {
+  border-right: 1px solid black;
+  color: black;
+}
+.cat1 {
+  margin-left: 50px;
+}
